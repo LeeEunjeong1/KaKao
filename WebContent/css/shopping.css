@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/*Reset*/
+*{margin: 0; padding: 0;}
+
+ol, ul{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    outline: 0;
+}
+
+img{
+    border: 0;
+}
+
+
+/*Background_image*/
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: #cfecf4;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+header h1{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 3;
+}
+
+header h1 img{
+    width: 100%;
+    height: auto;
+}
+
+header ul{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 3;
+}
+
+header ul li{
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: all 0.4s;
+    font-size: 5pt;
+    float: left;
+}
+
+header ul li a{
+    display: inherit;
+}
+
+header ul li img{
+    width: 70px;
+}
+
+header ul li:nth-child(1) span{
+    margin-left: 13px;
+}
+
+header ul li:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 3;
+    top: 40%;
+    margin-top: -25px;
+    left: 0;
+    background: #fff;
+}
+
+nav > ul{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+nav > ul > li{
+    width: 170px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.login{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 8pt;
+}
+
+.login img{
+    width: 40px;
+}
+
+.login span{
+    color: #000;
+}
+
+.order{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 8pt;
+}
+
+.order img{
+    width: 40px;
+}
+
+.order span{
+    color: #fff;
+}
+
+.choco{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+
+.choco img{
+    width: 40px;
+}
+
+nav > ul > li > a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 12pt;
+    color: #273336;
+    transition: all 0.4s;
+    line-height: 50px;
+}
+
+nav > ul > li:hover > a{
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+nav > ul > li > div{
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 200px;
+    height: 300px;
+    background: #d8acad;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+nav > ul > li:hover div{
+    opacity: 1;
+    top: -100px;
+}
+
+nav > ul > li > div > p{
+    width: 100%;
+    height: 88px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+nav > ul > li > div > p > img{
+    width: 100%;
+}
+
+nav > ul > li > div > h2{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #273336;
+    line-height: 40px;
+}
+
+nav > ul > li > div > ul{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav > ul > li > div > ul > li > a{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #bbb;
+    color: #273336;
+    text-align: center;
+    font-size: 10pt;
+    transition: all 0.4s;
+    line-height: 30px;
+}
+
+nav > ul > li > div > ul > li > a:hover{
+    background: #fff;
+    font-weight: bold;
+}
+
+section{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    margin-top: 250px;
+    left: 0;
+    overflow: hidden;
+    opacity: 1;
+}
+
+section > img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #7292b8;
+    z-index: 5;
+}
+
+footer ul{
+    width: 65%;
+    height: 30px;
+    float: left;
+    margin-top: 3px;
+}
+
+footer ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+footer ul li:nth-child(5){
+    width: 20%;
+    margin-right: 10px;
+}
+
+footer ul li a{
+    font-size: 10pt;
+    color: #7292b8;
+}
+
+footer span{
+    font-size: 10pt;
+    color: #7292b8;
+    float: right;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    margin-top: 4px;
+}

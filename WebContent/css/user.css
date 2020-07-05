@@ -1,0 +1,108 @@
+.wrap {
+	min-height: 100%;
+}
+section{
+    padding : 63px 0;
+    width : 1000px;
+    margin : 0 auto;
+    margin-bottom : 20px;
+    background-color : #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+}
+form{
+    width : 100%;
+    display : block;
+}
+
+form input[type = "text"]{
+    border : 1px solid black;
+    width : 680px;
+    height : 47px;
+    margin-left : 3em;
+    margin-right: -70px;
+    margin-top : 10px;
+    font-size: 2em;
+    padding-left : 10px;
+    float : left;
+    border-radius: .25rem;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    background: rgba(158,158,158,.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    width : 81px;
+    height : 50px;
+    padding-top: 3px;
+    margin-top : 10px;
+    margin-left: -30px;
+    text-decoration: none;
+}
+
+#searchImg {
+    height: 32px;
+    width: 32px;
+}
+
+form button[type = ""]:hover{
+    background-color : yellow;
+}
+
+section table{
+    line-height : 50px;
+    min-height : 100px;
+    width : 1000px;
+    margin-top : 50px;
+    border-top : 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-collapse: collapse;
+}
+#errorMsg {
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+td, th{
+    text-align : left;
+    padding-left : 10px;
+}
+
+tr {
+    border-bottom : 1px solid #f4f4f4;
+}
+tr:last-child {
+    border-bottom : 1px solid #dcdcdc;
+}
+table button {
+    height: 24px;
+    line-height: normal;
+}
+#lastline{
+    display : block;
+    text-align : right;
+}
+.button{
+    width : 81px;
+    margin : 8px 15px;
+    background-color : #F44336;
+    line-height: 50px;
+    text-align : center;
+    font-size : 1em;
+    display : inline-block;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color : #E53935;
+}
+
+.button a{
+    text-decoration: none;
+    color : #fff;
+}

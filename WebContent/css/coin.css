@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+#coin_wrap{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#coin_wrap h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#coin{
+    width: 260px;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    margin: 0 0 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #7292b8;
+    padding: 2px 2px 2px 3px;
+    position: absolute;
+    top: 50px;
+}
+
+.coin{
+    width: 380px;
+    height: 245px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.insert{
+    position: absolute;
+    top: 47px;
+    right: 30px;
+    padding: 10px;
+    outline: 0;
+    border: 0px;
+    cursor: pointer;
+    background: #7292b8;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.loginImg{
+    width: 400px;
+    position: absolute;
+    top: 160px;
+}
+
+#coin_wrap .coin p{
+    font-size: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    position: relative;
+    top: 95px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.adminLogin{
+    color: #fff;
+    padding: 5px 9px;
+    background: #888;
+    border-radius: 2px;
+}

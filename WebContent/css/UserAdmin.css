@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+article{
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+article > p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#search{
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#search .UserSearch{
+    width: 600px;
+    height: 40px;
+    margin-left: 100px;
+    border: 1px solid #332805;
+    border-radius: 3px;
+}
+
+#search .SearchButton{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #332805;
+    background-color: #ffcd00;
+    color: #332805;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#UserTable{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+table{
+    width: 1200px;
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+            
+tr{
+    height: 50px;
+    border: 1px solid #ccc;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: #cccccc;
+}
+            
+th{
+    font-size: 10pt;
+    background: #fbfafa;
+    border-left: 1px solid #cccccc;
+}
+
+            
+td{
+    padding: 10px 0 8px 10px;
+    border-left: 1px solid #cccccc;
+}
+
+section{
+    min-height: 100%;
+}
+
+#group{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#group li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+#group li a{
+    border: 1.5px solid #888;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #888;
+    font-weight: bold;
+}
+
+#group li a:hover{
+    border: 1.5px solid #332805;
+    color: #332805;
+}
+
+.button{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button input{
+    width: 48%;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #fbfafa;
+}
+
+.button1{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button1 input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #fbfafa;
+}
+
+.button2{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button2 input{
+    width: 32%;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #fbfafa;
+}
+
+.update, .delete{
+    width: 80px;
+    text-align: center;
+}
+
+.update input{
+    font-size: 10pt;
+    padding: 5px 10px;
+}
+
+.delete input{
+    font-size: 10pt;
+    padding: 5px 10px;
+}
+
+.second{
+    height: 200px;
+}
+
+/*#sort{
+    padding: 10px 20px;
+}*/

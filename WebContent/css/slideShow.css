@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#slideShow {    
+	height:500px;
+	line-height:500px;
+}	
+
+#slideShowBox  {
+	margin:0 auto;
+    overflow:hidden;
+	position:absolute;       
+    width:1200px; 
+	height:500px;
+   }
+
+   
+/*슬라이드 패널*/
+#slidePanel{
+	width:6000px;
+	position:absolute;
+}
+
+/*슬라이드 이미지*/
+.slideImage{
+	float:left;
+	width:1200px;
+	height:500px;
+}
+
+#prevNextButtonBox{position:relative;}
+#prevNextButtonBox img{width: 44px; height: 44px;}
+#prevButton{position:absolute; top:173px; left:0px; z-index: 999;}
+#nextButton{position:absolute; top:173px; left:1030px; z-index: 999;}

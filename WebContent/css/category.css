@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body {height: 100%; margin: 0; padding: 0; } 
+
+#wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header nav{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+
+header nav ul li{
+    float: left;
+    width: 12%;
+    height: 70px;
+    text-align: center;
+    position: relative;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 70px;
+    font-size: 13pt;
+    font-weight: bold;
+    display: block;
+}
+
+header nav ul li a img{
+    width: 130px;
+}
+
+header nav ul ul{
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    color: #fff;
+    width: 100%;
+}
+
+header nav ul ul li{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+header nav ul ul li a{
+    font-size: 9pt;
+    line-height: 50px;
+}
+
+header nav ul ul li:last-child{
+    border-bottom: 0;
+}
+
+header nav ul li:hover ul{
+    display: block;
+}
+
+section{
+    min-height: 100%;
+}
+
+.keyimage img{
+    width: 100%;
+}
+
+.gnb{
+    margin-top: 30px;
+    height: 70px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+}
+
+.gnb ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.gnb ul li:last-child{
+    border-right: none;
+}
+
+.gnb ul li a{
+    line-height: 70px;
+    color: #000;
+    display: block;
+}
+
+.gnb ul li:hover a{
+    background: rgba(155, 202, 236, 0.5);
+    color: #1e3443;
+}
+
+.viewFirst{
+    width: 300px;
+    height: 200px;
+    border: 10px solid #fff;
+    margin: 23px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+			
+
+.viewFirst .mask{
+	width: 300px;
+	height: 200px;
+	background: rgba(225, 225, 225, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.mask h2{
+	color: #332805;
+	margin-top: 20px;
+	background: rgba(255, 205, 0, 0.7);
+	padding: 10px;
+	font-size: 17px;
+}
+
+.mask p{
+	color: #000;
+	font-size: 12px;
+	padding: 10px 20px 10px;
+    margin-top: 10px;
+}
+
+.mask a{
+	background: #332805;
+    margin-top: 10px;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	box-shadow: 0 0 1px #000;
+	display: inline-block;
+    color: #fff;
+    font-size: 9pt;
+}
+
+.viewFirst img{
+	transition: all 0.2s linear;
+}
+.viewFirst:hover img{
+	transform: scale(1.1);
+}
+
+/*롤오버 배경*/
+.viewFirst .mask{
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+.viewFirst:hover .mask{
+	opacity: 1;
+}
+
+/*롤오버 되기 전 상태*/
+.viewFirst h2{
+	text-transform: uppercase;
+	transform: translateY(-100px);
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
+}
+.viewFirst p{
+	transform: translateY(100px);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.viewFirst a{
+	transform: translateY(70px);
+	transition: all 0.2s 0.4s ease-in-out;
+	opacity: 0;
+}
+
+/*롤오버 상태*/
+.viewFirst:hover h2{
+	transform: translateY(0); /*원래자리로 다시 되돌아가게 해준다.*/
+	opacity: 1;
+}
+.viewFirst:hover p{
+	transform: translateY(0);
+	opacity: 1;
+}
+.viewFirst:hover a{
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.popular{
+    margin-top: 20px;
+    height: 350px;
+}
+
+.popular ul li{
+    width: 20%;
+    border: 1px solid #ccc;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.popular img{
+    width: 100%;
+}
+
+footer{
+    width: 1100px;
+    height: 200px;
+    clear: both;
+    margin-top: 50px;
+    font-size: 10pt;
+    bottom: 0;
+}
+
+footer .footer_p{
+    float: left;
+}
+
+footer .footer_p p{
+    margin-bottom: 10px;
+}
+
+footer .friends{
+    float: right;
+}
+
+.footer_p, .friends{
+    margin-top: 10px;
+}

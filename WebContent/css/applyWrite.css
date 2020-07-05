@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+table{
+    width: 800px;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+tr{
+    border: 1px solid #332805;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: #332805;
+}
+            
+th{
+    font-size: 11pt;
+    background: #ffcd00;
+    width: 120px;
+}
+            
+td{
+    padding: 20px 0 20px 30px;
+    border-left: 1px solid #332805;
+}
+
+input{
+    width: 600px;
+    height: 40px;
+}
+
+select{
+    width: 600px;
+    height: 50px;
+    font-size: 1.1em;
+}
+
+#submit1{
+    width: 150px;
+    margin-left: 230px;
+    margin-top: 20px;
+    background: #ffcd00;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#submit{
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background: #ffcd00;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#delete{
+    width: 150px;
+    background: #ffcd00;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
